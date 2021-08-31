@@ -66,12 +66,20 @@ header {
   width: 100%; }
 
 footer {
-  background-color: #00608d;
+  background-color: #00608d !important;
   color: white;
   text-align: center;
-  position: inherit;
   width: 100%; }
 
+/*footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: $color-primario;
+  color: $color-secundario;
+}
+*/
 /*Home Page*/
 .nav-link:hover {
   cursor: pointer;
@@ -134,7 +142,7 @@ button:hover {
 /*Nosotros*/
 .NosotrosSection {
   text-align: justify;
-  padding: 80px;
+  padding: 50px;
   word-spacing: normal;
   line-height: 25px;
   background: white;
@@ -178,21 +186,20 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 80px;
+  padding: 50px;
   transition: all 0.5s ease;
   color: #00608d; }
   .servicesContent__Text {
-    text-align: justify;
+    text-align: start;
     font-size: 1rem;
     padding: 5px;
     word-spacing: 0.2rem;
     letter-spacing: normal; }
   .servicesContent__List {
-    list-style-type: none;
-    text-indent: 2rem;
+    list-style-type: square;
     padding-bottom: 5px;
     font-size: 1rem;
-    text-align: justify; }
+    text-align: start; }
 
 .servicesContent:hover {
   cursor: initial;
@@ -237,7 +244,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   background: white;
-  padding: 80px;
+  padding: 50px;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
   gap: 10px;
@@ -249,10 +256,9 @@ button:hover {
     text-align: left;
     font-style: normal; }
   .contentQuimio__Text {
-    text-align: justify;
+    text-align: start;
     font-size: 1rem;
-    padding: 5px;
-    word-spacing: 0.2rem;
+    word-spacing: normal;
     letter-spacing: normal; }
 
 .contentQuimio:hover {
@@ -268,7 +274,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 80px;
+  padding: 50px;
   word-spacing: normal;
   gap: 10px;
   transition: all 0.5s ease;
@@ -298,23 +304,20 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 80px;
-  word-spacing: normal;
+  padding: 50px;
   transition: all 0.5s ease; }
   .contentPaciente__Subtitles {
     font-size: 1.5rem;
     text-align: left;
     font-style: normal; }
   .contentPaciente__Text {
-    text-align: justify;
+    text-align: start;
     font-size: 1rem;
-    padding: 5px;
     word-spacing: 0.2rem;
     letter-spacing: normal; }
   .contentPaciente__List {
     text-align: justify;
     font-size: 1.2rem;
-    padding: 5px;
     list-style-type: decimal;
     font-size: 15px; }
 
@@ -331,7 +334,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 80px;
+  padding: 50px;
   word-spacing: normal;
   transition: all 0.5s ease;
   color: #00608d; }

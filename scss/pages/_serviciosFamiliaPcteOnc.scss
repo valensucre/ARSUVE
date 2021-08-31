@@ -7,8 +7,7 @@
   background: $color-secundario;
   border: 5px solid $color-bordes;
   border-radius: 1 * $root-size;
-  padding: 80px;
-  word-spacing: normal;
+  padding: 50px;
   transition: all 0.5s ease;
 
   &__Subtitles {
@@ -18,9 +17,9 @@
   }
 
   &__Text {
-    text-align: justify;
+    text-align: start;
     font-size: 1rem;
-    padding: 5px;
+
     word-spacing: 0.2rem;
     letter-spacing: normal;
   }
@@ -28,7 +27,6 @@
   &__List {
     text-align: justify;
     font-size: 1.2rem;
-    padding: 5px;
     list-style-type: decimal;
     font-size: 15px;
   }

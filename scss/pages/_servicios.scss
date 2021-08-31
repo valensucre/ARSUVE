@@ -7,23 +7,22 @@
   background: $color-secundario;
   border: 5px solid $color-bordes;
   border-radius: 1 * $root-size;
-  padding: 80px;
+  padding: 50px;
   transition: all 0.5s ease;
   color: $color-primario;
 
   &__Text {
-    text-align: justify;
+    text-align: start;
     font-size: 1rem;
     padding: 5px;
     word-spacing: 0.2rem;
     letter-spacing: normal;
   }
   &__List {
-    list-style-type: none;
-    text-indent: 2rem;
+    list-style-type: square;
     padding-bottom: 5px;
     font-size: 1rem;
-    text-align: justify;
+    text-align: start;
   }
 }
 .servicesContent:hover {
