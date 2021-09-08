@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ARSUVE</title>
+    <meta name="description" content="Guia para pacientes y familiares que se encuentran en recibiendo tratamiento oncologico">
+    <meta name="keywords" content="ARSUVE, Quimioterapia, Inmunoterapia, Frecuencia">
+    <title>Quimioterapia e Inmunoterapia - ARSUVE</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,6 +23,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!-- Header-->
     <header>
@@ -34,7 +37,7 @@
         "
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="/index.html">
             <img src="https://arsuve.com/images/logo.png" alt="ARSUVE" />
           </a>
           <button
@@ -50,99 +53,88 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <div class="navbar-nav w-100">
-              <a class="nav-link text-light" href="index.html">INICIO</a>
-              <a class="nav-link text-light" href="nosotros.html">NOSOTROS</a>
-              <a class="nav-link text-light" href="servicios.html">SERVICIOS</a>
-              <a class="nav-link text-light" href="nuestrassedes.html"
+              <a class="nav-link text-light" href="/index.html">INICIO</a>
+              <a class="nav-link text-light" href="/pages/nosotros.html">NOSOTROS</a>
+              <a class="nav-link text-light" href="/pages/servicios.html">SERVICIOS</a>
+              <a class="nav-link text-light" href="/pages/nuestrassedes.html"
                 >NUESTRAS SEDES</a
               >
-              <a class="nav-link text-light" href="contacto.html">CONTACTO</a>
+              <a class="nav-link text-light" href="/pages/contacto.html">CONTACTO</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <!--Fin header-->
+  </body>
+  <main>
+    <div class="container">
+      <section class="Titles">
+        GUÍA PARA PACIENTES Y FAMILIARES EN QUIMIOTERAPIA
+      </section>
+      <!--Information-->
 
-    <main>
-      <div class="container w-100">
-        <!--Parrafo-->
-        <div class="servicesContent">
-          <h1>¿Cuáles son los servicios que ofrecemos en ARSUVE?</h1>
-          <p class="servicesContent__Text">
-            Arsuve ofrece la siguiente variedad de servicios en relación al
-            tratamiento oncológico:
-          </p>
+      <div class="contentQuimio">
+        <h3 class="contentQuimio__Subtitles">¿Qué es la Quimioterapia?</h3>
 
-          <ul>
-            <li class="servicesContent__List">
-              Servicio de Detección y Diagnóstico del Cáncer, chequeos y
-              descartes oncológicos y educación médico-preventiva.
-            </li>
-            <li class="servicesContent__List">
-              Alianza estratégica con Servicio de Radioterapia GURVE
-            </li>
-            <li class="servicesContent__List">
-              Servicios de Quimioterapia e Inmunoterapia, en nuestro centro de
-              atención integral al Paciente.
-            </li>
-            <li class="servicesContent__List">
-              Soporte Psico-Oncológico, el cual contribuye con el tratamiento
-              integral del paciente con cáncer.
-            </li>
-          </ul>
-
-          <p class="servicesContent__Text">
-            Adicionalmente, nuestros pacientes oncológicos cuentan con apoyo de
-            nutrición, ginecología, hematología y reumatología de necesitarlo.
-          </p>
-        </div>
-        <!--Fin del Parrafo-->
-        <!--Servicios-->
-        <div class="row p-3">
-          <div class="col ServicesSection">
-            <ul class="list-unstyled text-center">
-              <h3 class="mb-3 text-center">Quimioterapia e Inmunoterapia</h3>
-
-              <li>Información</li>
-              <li>Frecuencia</li>
-              <li>Administración</li>
-
-              <a href="serviciosQuimioEInmuno.html" class="button mt-2"
-                >Leer Más</a
-              >
-            </ul>
-          </div>
-          <div class="col ServicesSection">
-            <ul class="list-unstyled text-center">
-              <h3 class="mb-3 text-center">Tratamientos</h3>
-
-              <li class="text-decoration-none">Información</li>
-              <li>Síntomas</li>
-              <li>Terapias</li>
-              <li>Prevención</li>
-
-              <a href="serviciosTratamientos.html" class="button mt-3"
-                >Leer Más</a
-              >
-            </ul>
-          </div>
-          <div class="col ServicesSection">
-            <ul class="list-unstyled text-center">
-              <h3 class="mb-3 text-center">Familia del Paciente Oncológico</h3>
-              <li>Paciente Oncológico</li>
-              <li>Necesidades del Paciente</li>
-              <li>Terapias de Apoyo</li>
-
-              <a href="serviciosFamiliaPcteOnc.html" class="button mt-2"
-                >Leer Más</a
-              >
-            </ul>
-          </div>
-        </div>
-        <!--Fin de Servicios-->
+        <p class="contentQuimio__Text">
+          Quimioterapia es el tratamiento para el cáncer con drogas que pueden
+          destruir las células cancerosas. Éstas drogas son comúnmente llamadas
+          drogas “anticáncer”
+        </p>
       </div>
-    </main>
+      <!--Frequency-->
+      <div class="contentQuimio">
+        <h3 class="contentQuimio__Subtitles">
+          ¿Con qué frecuencia necesitaré recibir quimioterapia y por cuánto
+          tiempo durará?
+        </h3>
+
+        <p class="contentQuimio__Text">
+          La frecuencia y la duración de la quimioterapia dependen del tipo de
+          cáncer que usted padece, de los objetivos del tratamiento, de los
+          medicamentos que se van a utilizar y de la forma en que su cuerpo
+          responda a ellos. Usted podría recibir tratamiento diario, semanal o
+          mensual; pero por lo general los tratamientos se administran en ciclos
+          intermitentes que incluyen períodos de descanso para que su cuerpo
+          pueda generar nuevas células sanas y recobrar su fuerza.  </p>
+          
+          <p class="contentQuimio__Text"> Muchas personas se preguntan por cuánto tiempo en realidad los medicamentos
+          permanecerán en sus cuerpos y cómo éstos se eliminarán del organismo.
+          La mayoría de los medicamentos son procesados por sus riñones y su
+          hígado y luego son eliminados de su cuerpo a través de la orina o las
+          heces fecales. El tiempo que le toma a su cuerpo eliminar los
+          medicamentos depende de muchos factores incluyendo el tipo de
+          quimioterapia que recibe, otras medicinas que toma, su edad y las
+          funciones de sus riñones y su hígado. Su médico le indicará si
+          necesita tomar cualquier precaución especial, debido a los
+          medicamentos que está recibiendo.</p>
+       
+
+        <p class="contentQuimio__Text">
+          Si su cáncer regresa, se puede volver a utilizar quimioterapia. Esta
+          vez se podrían administrar medicamentos diferentes para aliviar los
+          síntomas o para disminuir el crecimiento o propagación del cáncer. Los
+          efectos secundarios podrían ser diferentes, dependiendo del
+          medicamento, la dosis y cómo se administre.
+        </p>
+      </div>
+      <!--Administration-->
+      <div class="contentQuimio">
+        <h3 class="contentQuimio__Subtitles">
+          ¿Cómo se me administrará la quimioterapia?
+        </h3>
+
+        <p class="contentQuimio__Text">
+          La mayoría de los medicamentos de quimioterapia se administran a
+          través de un tubo diminuto de plástico llamado catéter. Se usa una
+          aguja para colocar un catéter en una vena de su antebrazo o mano;
+          luego se extrae la aguja y queda el catéter. A esto se le llama
+          tratamiento intravenoso o IV.
+        </p>
+      </div>
+    </div>
+  </main>
 
     <!--Footer-->
     <footer>
@@ -214,10 +206,9 @@
       <!-- Fin del Formulario Modal -->
     </footer>
     <!--Fin del Footer-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+  ></script>
 </html>
