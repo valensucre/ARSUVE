@@ -29,6 +29,20 @@ main {
   border-radius: 1rem;
   color: white; }
 
+.buttonContact {
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 8px;
+  transition: all 0.5s ease; }
+
+.buttonContact:hover {
+  cursor: pointer;
+  color: #027db6;
+  background: white; }
+
 .modal-header {
   background-color: #59b659;
   color: white; }
@@ -186,13 +200,13 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 50px;
+  padding: 40px;
   transition: all 0.5s ease;
   color: #00608d; }
   .servicesContent__Text {
     text-align: start;
     font-size: 1rem;
-    padding: 5px;
+    padding: 2px;
     word-spacing: 0.2rem;
     letter-spacing: normal; }
   .servicesContent__List {
@@ -304,7 +318,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 50px;
+  padding: 40px;
   transition: all 0.5s ease; }
   .contentPaciente__Subtitles {
     font-size: 1.5rem;
