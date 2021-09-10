@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Guia para pacientes y familiares que se encuentran en recibiendo tratamiento oncologico">
+    <meta name="description" content="Guia para pacientes y familiares que se encuentran recibiendo tratamiento oncológico">
     <meta name="keywords" content="ARSUVE, Quimioterapia, Inmunoterapia, Frecuencia">
     <title>Quimioterapia e Inmunoterapia - ARSUVE</title>
     <link
@@ -68,6 +68,60 @@
                           >
                             CONTACTO
                           </button>
+                                              <!-- Formulario Modal -->
+        <div
+        class="modal fade text-dark"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">CONTÁCTANOS</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            
+              <form class="modal-body container px-4 py-5">  
+                <div class="row flex-row mb-4">
+                  <div class="form-group">
+                  <label for="nombre" class="mb-3">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="mb-3">Correo</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Comentarios</label>
+                  <textarea name="message" rows="3" class="form-control"></textarea>
+                </div>
+                
+              </div>
+              </form>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="button"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button type="button" class="button">
+                Enviar Consulta
+              </button>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Fin del Formulario Modal -->
                           <!-- Fin de Contacto-->
             </div>
           </div>
@@ -77,21 +131,22 @@
     <!--Fin header-->
   </body>
   <main>
+
     <div class="container">
       <section class="Titles">
         GUÍA PARA PACIENTES Y FAMILIARES EN QUIMIOTERAPIA
       </section>
       <!--Information-->
-      <div class="contentQuimio col-lg-8 md-4 ">       
+
+      <div class="contentQuimio">       
         <h3 class="contentQuimio__Subtitles">¿Qué es la Quimioterapia?</h3>
         <p class="contentQuimio__Text">
           Quimioterapia es el tratamiento para el cáncer con drogas que pueden
           destruir las células cancerosas. Éstas drogas son comúnmente llamadas
           drogas “anticáncer”
-        </p>
-        
+        </p>       
       </div>
-      
+
       <!--Frequency-->
       <div class="contentQuimio">
         <h3 class="contentQuimio__Subtitles">
@@ -162,60 +217,7 @@
           Formulario de Contacto
         </button>
 
-        <!-- Formulario Modal -->
-        <div
-          class="modal fade text-dark"
-          id="exampleModal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">CONTÁCTANOS</h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              
-                <form class="modal-body container footerForm px-4 py-5">  
-                  <div class="row flex-row mb-4">
-                    <div class="form-group">
-                    <label for="nombre" class="mb-3">Nombre y Apellido</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email" class="mb-3">Correo</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Comentarios</label>
-                    <textarea name="message" rows="3" class="form-control"></textarea>
-                  </div>
-                  
-                </div>
-                </form>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="button"
-                  data-bs-dismiss="modal"
-                >
-                  Cerrar
-                </button>
-                <button type="button" class="button">
-                  Enviar Consulta
-                </button>
-              </div>
-            
-          </div>
-        </div>
-      </div>
-      <!-- Fin del Formulario Modal -->
+
     </footer>
     <!--Fin del Footer-->
   <script

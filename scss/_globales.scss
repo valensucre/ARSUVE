@@ -31,7 +31,7 @@ main {
 }
 .buttonContact {
   border: none;
-  color: white;
+  color: $color-secundario;
   text-decoration: none;
   display: inline-block;
   font-size: 22px;
@@ -41,7 +41,7 @@ main {
 .buttonContact:hover {
   cursor: pointer;
   color: rgb(2, 125, 182);
-  background: white;
+  background: $color-secundario;
 }
 .modal-header {
   background-color: rgb(89, 182, 89);
@@ -54,7 +54,7 @@ main {
 .buttonModal {
   background-color: rgb(89, 182, 89);
   border: none;
-  color: white;
+  color: $color-secundario;
   padding: 5px 5px;
   text-decoration: none;
   display: inline-block;
@@ -65,5 +65,5 @@ main {
 .buttonModal:hover {
   cursor: pointer;
   color: rgb(2, 125, 182);
-  background: white;
+  background: $color-secundario;
 }

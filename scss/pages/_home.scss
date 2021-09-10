@@ -3,7 +3,7 @@
 .nav-link:hover {
   cursor: pointer;
   background: rgb(0, 85, 130);
-  color: white;
+  color: $color-secundario;
   border-radius: 1 * $root-size;
 }
 
@@ -48,7 +48,7 @@
 button {
   background-color: $color-primario;
   border: none;
-  color: white;
+  color: $color-secundario;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
@@ -60,7 +60,7 @@ button {
 button:hover {
   cursor: pointer;
   color: rgb(2, 125, 182);
-  background: white;
+  background: $color-secundario;
 }
 
 /*Fin del Home Page*/

@@ -24,6 +24,9 @@
     word-spacing: normal;
     letter-spacing: normal;
   }
+  &__Foto {
+    border-radius: 2 * $root-size;
+  }
 }
 .contentQuimio:hover {
   cursor: initial;
