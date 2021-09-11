@@ -143,8 +143,8 @@ button:hover {
 /*Fin del Home Page*/
 /*Nosotros*/
 .NosotrosSection {
-  text-align: justify;
-  padding: 50px;
+  text-align: start;
+  padding: 20px;
   word-spacing: normal;
   line-height: 25px;
   background: white;
@@ -188,7 +188,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 40px;
+  padding: 20px;
   transition: all 0.5s ease;
   color: #00608d; }
   .servicesContent__Text {
@@ -246,7 +246,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   background: white;
-  padding: 50px;
+  padding: 20px;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
   gap: 10px;
@@ -278,7 +278,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 50px;
+  padding: 20px;
   word-spacing: normal;
   gap: 10px;
   transition: all 0.5s ease;
@@ -308,7 +308,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 40px;
+  padding: 20px;
   transition: all 0.5s ease; }
   .contentPaciente__Subtitles {
     font-size: 1.5rem;
@@ -338,7 +338,7 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 50px;
+  padding: 20px;
   word-spacing: normal;
   transition: all 0.5s ease;
   color: #00608d; }
