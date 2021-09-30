@@ -67,7 +67,7 @@ main {
   color: #027db6;
   background: white; }
 
-#buttonTop {
+.buttonTop {
   text-decoration: none;
   color: white;
   font-size: 20px; }
@@ -176,7 +176,8 @@ button:hover {
   margin-right: auto;
   margin-top: 8%;
   transition: all 0.5s ease;
-  color: #00608d; }
+  color: #00608d;
+  text-align: center; }
 
 .sidebar:hover {
   cursor: initial;
