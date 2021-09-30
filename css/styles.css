@@ -67,6 +67,11 @@ main {
   color: #027db6;
   background: white; }
 
+.backToTop {
+  border: none;
+  color: white;
+  text-decoration: none; }
+
 header {
   position: relative;
   background-color: #00608d;
@@ -188,20 +193,11 @@ button:hover {
   background: white;
   border: 5px solid #ebebeb;
   border-radius: 1rem;
-  padding: 20px;
+  padding: 50px;
   transition: all 0.5s ease;
-  color: #00608d; }
-  .servicesContent__Text {
-    text-align: start;
-    font-size: 1rem;
-    padding: 2px;
-    word-spacing: 0.2rem;
-    letter-spacing: normal; }
-  .servicesContent__List {
-    list-style-type: square;
-    padding-bottom: 5px;
-    font-size: 1rem;
-    text-align: start; }
+  color: #00608d;
+  text-align: center;
+  justify-content: center; }
 
 .servicesContent:hover {
   cursor: initial;

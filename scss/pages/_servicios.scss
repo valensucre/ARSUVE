@@ -7,23 +7,11 @@
   background: $color-secundario;
   border: 5px solid $color-bordes;
   border-radius: 1 * $root-size;
-  padding: 20px;
+  padding: 50px;
   transition: all 0.5s ease;
   color: $color-primario;
-
-  &__Text {
-    text-align: start;
-    font-size: 1rem;
-    padding: 2px;
-    word-spacing: 0.2rem;
-    letter-spacing: normal;
-  }
-  &__List {
-    list-style-type: square;
-    padding-bottom: 5px;
-    font-size: 1rem;
-    text-align: start;
-  }
+  text-align: center;
+  justify-content: center;
 }
 .servicesContent:hover {
   cursor: initial;
