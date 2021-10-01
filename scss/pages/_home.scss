@@ -62,4 +62,16 @@ button:hover {
   background: $color-secundario;
 }
 
+/*Mapas*/
+.contentHome {
+  display: flex;
+  flex-direction: column;
+  background: $color-secundario;
+  border: 5px solid $color-bordes;
+  border-radius: 1 * $root-size;
+  padding: 20px;
+  word-spacing: normal;
+  transition: all 0.5s ease;
+  color: $color-primario;
+}
 /*Fin del Home Page*/
