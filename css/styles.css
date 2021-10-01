@@ -107,7 +107,8 @@ footer {
   color: lightgray;
   background-color: #00608d;
   transform: scale(1);
-  font-weight: bold; }
+  font-weight: bold;
+  border: none; }
 
 .button {
   background-color: #027db6;
@@ -218,7 +219,8 @@ button:hover {
   color: lightgray;
   background-color: #00608d;
   transform: scale(1);
-  font-weight: bold; }
+  font-weight: bold;
+  border: none; }
 
 .button {
   background-color: #027db6;
