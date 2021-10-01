@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #f0f0f0;
+  background-color: gainsboro;
   font-size: 1rem;
   font-family: "Lato", sans-serif;
   width: 100%; }
@@ -90,7 +90,7 @@ footer {
 /*Home Page*/
 .nav-link:hover {
   cursor: pointer;
-  background: #005582;
+  background: #00508c;
   color: white;
   border-radius: 1rem; }
 
@@ -98,7 +98,7 @@ footer {
 .HomeSection {
   border: 5px solid #ebebeb;
   padding: 50px;
-  background-color: lightgray;
+  background-color: white;
   color: #00608d;
   transition: all 0.5s ease-in; }
 
@@ -143,18 +143,6 @@ button:hover {
   cursor: pointer;
   color: #027db6;
   background: white; }
-
-/*Mapas*/
-.contentHome {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  border: 5px solid #ebebeb;
-  border-radius: 1rem;
-  padding: 20px;
-  word-spacing: normal;
-  transition: all 0.5s ease;
-  color: #00608d; }
 
 /*Fin del Home Page*/
 /*Nosotros*/
@@ -214,15 +202,13 @@ button:hover {
 
 .servicesContent:hover {
   cursor: initial;
-  background-color: #00608d;
-  color: white;
   transform: scale(1);
   font-size: 21px; }
 
 .ServicesSection {
   border: 5px solid #ebebeb;
   padding: 50px;
-  background-color: lightgray;
+  background-color: white;
   border-radius: 1rem;
   color: #00608d;
   transition: all 0.5s ease-in; }
@@ -299,7 +285,7 @@ button:hover {
     text-align: left;
     font-style: normal; }
   .contentTreatment__Text {
-    text-align: justify;
+    text-align: left;
     font-size: 1rem;
     padding: 5px;
     word-spacing: 0.2rem;

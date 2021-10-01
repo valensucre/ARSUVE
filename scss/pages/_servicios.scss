@@ -16,8 +16,7 @@
 }
 .servicesContent:hover {
   cursor: initial;
-  background-color: $color-primario;
-  color: $color-secundario;
+
   transform: scale(1);
   font-size: 21px;
 }
@@ -25,7 +24,7 @@
 .ServicesSection {
   border: 5px solid $color-bordes;
   padding: 50px;
-  background-color: lightgray;
+  background-color: $color-secundario;
   border-radius: 1 * $root-size;
   color: $color-primario;
   transition: all 0.5s ease-in;
